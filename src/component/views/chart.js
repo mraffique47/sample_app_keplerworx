@@ -16,7 +16,7 @@ export default function Chart({ d3Heading, rechartsHeading, data }) {
           <BarChartD3
             data={data}
             width={550}
-            height={200}
+            height={400}
             top={20}
             right={0}
             bottom={30}
@@ -32,7 +32,7 @@ export default function Chart({ d3Heading, rechartsHeading, data }) {
             barKey={"value"}
             data={data}
             width={550}
-            height={200}
+            height={400}
             top={20}
             right={0}
             bottom={0}
